@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var recordingLabel: UILabel!
     @IBAction func recordButton(_ sender: UIButton) {
-        print("Hello World")
+        recordingLabel.text = "Recording in Progress"
     }
     
 }
