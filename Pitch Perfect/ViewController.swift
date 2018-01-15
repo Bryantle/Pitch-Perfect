@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var recordingButton: UIButton!
     
     @IBOutlet weak var stopRecordingButton: UIButton!
-    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if event?.subtype == UIEventSubtype.motionShake{print("Hello World")}    }
 }
 
