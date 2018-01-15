@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     }
     @IBAction func stopRecording(_ sender: UIButton) {
     }
+    @IBOutlet weak var recordingButton: UIButton!
+    
+    @IBOutlet weak var stopRecordingButton: UIButton!
     
 }
 
